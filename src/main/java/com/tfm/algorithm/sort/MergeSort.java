@@ -63,7 +63,7 @@ public class MergeSort {
     }
 
     public static void main(String[] args) {
-        int params[] = {3, 5, 8, 4, 2, 1, 9, 6, 7};
+        int params[] = {3, 5, 8, 4, 2, 1, 9, 6, 7, 100};
         mergerRecursive(params, 0, params.length - 1);
         for (int num : params) {
             System.out.print(num + " ");
